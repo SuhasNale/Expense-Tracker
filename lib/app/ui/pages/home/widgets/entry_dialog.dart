@@ -217,7 +217,7 @@ class _EntryDialogState extends State<EntryDialog> {
                                 .showSnackBar(snackBar);
                           } else if (result == 0) {
                             final snackBar = SnackBar(
-                              content: const Text('Amount Cannot be Blank!'),
+                              content: const Text("Amount Can't be Blank!"),
                               action: SnackBarAction(
                                 label: 'Ok',
                                 onPressed: () {
